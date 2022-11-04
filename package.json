@@ -8,7 +8,7 @@
     "npm": "8.11.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1" ,
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node script.js"
   },
   "repository": {
@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/vanshikajain1/ICEET/issues"
   },
-  "homepage": "https://github.com/vanshikajain1/ICEET#readme"
+  "homepage": "https://github.com/vanshikajain1/ICEET#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
