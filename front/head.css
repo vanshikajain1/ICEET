@@ -51,7 +51,7 @@ body{
         background-color: none;
     }
 .banner{
-    background-image: linear-gradient(rgba(201,58,139,0.72),rgba(101,61,207,0.72)), url(images/mainBg.jpg);
+    background-image: linear-gradient(rgba(201,58,139,0.72),rgba(101,61,207,0.72)), url(/images/mainBg.jpg);
     /* filter: grayscale(70%); */
     background-size: cover;
     height: 35rem;
