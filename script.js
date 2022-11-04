@@ -70,8 +70,3 @@ var x = setInterval(function () {
 // let server = app.listen(port, () => {
 //   console.log("Listning to port " + port);
 // });
-if (typeof window !== 'undefined') {
-  console.log('You are on the browser')
-} else {
-  console.log('You are on the server')
-}
