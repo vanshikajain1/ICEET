@@ -61,12 +61,12 @@ var x = setInterval(function () {
 //   dots[slideIndex-1].className += " active";
 // }
 
-const express = require("express"); //express library ka content express constant me daldo
-const http = require("http");
-const app = express(); //initialized and server ready
+// const express = require("express"); //express library ka content express constant me daldo
+// const http = require("http");
+// const app = express(); //initialized and server ready
 
-app.use(express.static("front"));
-let port = process.env.PORT || 3000; // end point for to and fro movement of dataflow
-let server = app.listen(port, () => {
-  console.log("Listning to port " + port);
-});
+// app.use(express.static("front"));
+// let port = process.env.PORT || 3000; // end point for to and fro movement of dataflow
+// let server = app.listen(port, () => {
+//   console.log("Listning to port " + port);
+// });
