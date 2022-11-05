@@ -142,6 +142,7 @@ body{
     text-align: left;
     justify-content: left;
     color: #653ECB;
+    /* background-color: yellow; */
     
 }
 
@@ -348,16 +349,43 @@ ul li::before {
     margin-left: -1em;
   }
 
-    .img{
-        height: 30px;
-       margin: 8px;
+    .query{
+        font-size: 1.5rem;
+        margin-bottom: 1.4rem;
+        margin-top: 1rem;
+        color: navy;
+        font-weight: 500;
+        /* background-color: greenyellow; */
     }
-    .num{
-        padding-top: 5px;
-        height: 30px;
-        margin: 8px;
-        font-size: 20px;
-    }
+
+    #table, th, td {
+        /* border:1px solid black; */
+        border-collapse: collapse;
+        font-size: 1.2rem;
+        font-weight: 100;
+      }
+        .img{
+           height: 2.2rem;
+           margin: 0.4rem;
+        }
+        .num{
+            padding-top: 5px;
+            height: 30px;
+            margin: 8px;
+            font-size: 20px;
+        }
+#box{
+    margin-left: 14rem;
+    margin-right: 14rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    /* border-radius: 0rem 0rem 5.5rem 5.5rem; */
+    /* background-color: #ccc; */
+    /* border-top: 2rem solid red;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent; */
+}
 
    .container{
         height: 400px;
