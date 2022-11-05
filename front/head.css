@@ -331,7 +331,7 @@ background-color: #f7F7F7;
 }
 .members{
     background-color: white;
-    /* background-color: #bd1e7d; */
+    /* background-color: #EA0763 */
     height: 18rem;
     width: 13rem;
     margin: 1rem;
@@ -353,12 +353,11 @@ ul li::before {
         font-size: 1.5rem;
         margin-bottom: 1.4rem;
         margin-top: 1rem;
-        color: navy;
-        font-weight: 500;
+        color: #C93A8B;
         /* background-color: greenyellow; */
     }
 
-    #table, th, td {
+#table, #th, #td {
         /* border:1px solid black; */
         border-collapse: collapse;
         font-size: 1.2rem;
@@ -378,13 +377,16 @@ ul li::before {
     margin-left: 14rem;
     margin-right: 14rem;
     display: flex;
+    align-items: flex-start;
     justify-content: space-between;
     padding: 2rem;
-    /* border-radius: 0rem 0rem 5.5rem 5.5rem; */
-    /* background-color: #ccc; */
-    /* border-top: 2rem solid red;
-    border-left: 50px solid transparent;
-    border-right: 50px solid transparent; */
+}
+#contact{
+    font-size: 1.2rem;
+    text-align: left;
+    justify-content: left;
+    color: #653ECB;
+    /* background-color: #bbb; */
 }
 
    .container{
@@ -410,7 +412,7 @@ ul li::before {
       }
       
       #submit{
-        background-color: #bd1e7d;
+        background-color: #EA0763;
         margin-left: 15px;
         width: 320px;
         color: white;
