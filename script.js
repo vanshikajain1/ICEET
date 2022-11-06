@@ -15,9 +15,9 @@ var x = setInterval(function () {
   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-  //   // add in string time
+  // add in string time
   //   let time ='§{davs} : S{hours} : s{minutes} : ${seconds}';
-  // // Output the result in an element
+  // Output the result in an element
   //   document.querySelector('#countdown').innerText=time;
 
   // Output the result in an element with id="demo"
