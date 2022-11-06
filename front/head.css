@@ -63,7 +63,7 @@ body{
     /* transform: translate(25%,25%); */
 }
 #banner{
-    height: 15rem;
+    height: 18rem;
     font-weight: bold;
     font-size: 1.5rem;
     text-align: center;
@@ -252,17 +252,32 @@ background-color: #f7F7F7;
     background-color: #EA0763;
     height: 12rem;
     width: 12rem;
+    color: whitesmoke;
+    text-transform: uppercase;
+    font-size: 2.2rem;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+    font-family: Oswald;
+    text-align: center;
+
+
 }
 #ss{
-    background-color: #3B1D82;
+    background-color: #5e32cd;
 }
+
 .topic{
     color: #3B1D82;
     padding: 2rem;
 }
-#topic{
+
+/* #topic{
    color: #EA0763;
-}
+} */
+
 .impdates{
     border-bottom: .1rem solid #ddd;
     padding: 1rem;
@@ -363,10 +378,6 @@ ul li::before {
         font-size: 1.2rem;
         font-weight: 100;
       }
-        .img{
-           height: 2.2rem;
-           margin: 0.4rem;
-        }
         .num{
             padding-top: 0.313rem;
             height: 1.875;
@@ -385,7 +396,6 @@ ul li::before {
     font-size: 1.2rem;
     text-align: left;
     justify-content: left;
-    color: #653ECB;
     /* background-color: #bbb; */
 }
 
