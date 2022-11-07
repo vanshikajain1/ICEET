@@ -356,24 +356,21 @@ align-items: center;
 
 .tablehead{
     font-weight: bold;
-    text-align: left;
+    background-color: #BE99FE;
 }
 .table {
-    border-collapse: collapse;
-    text-align: center;
     vertical-align: center;
     height: 10rem;
     width: 30rem;
+    border-collapse: separate;
+    border-spacing: 0 1rem;
   }
   
-.th, td {
-    text-align: left;
-    padding: .5rem;
+.tr{
+    text-align: center;
+    background-color: #E8E8E8;
   }
   
-.tr:nth-child(even)  {
-      background-color: #f2f2f2;
-    }
 .para{
     font-size: 1.1rem;
 }
